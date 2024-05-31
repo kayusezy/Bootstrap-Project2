@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background-color: rgb(27, 27, 27);
+}
+.transparent-navbar {
+    background-color: rgba(0, 0, 0, 0.9); /* Adjust the last value (alpha) for transparency */
+    color: white;
+    width: 100%;
+    z-index: 1000;
+}
+.transparent-navbar a{
+    color: white;
+}
+.home{
+    background-image: url(https://t3.ftcdn.net/jpg/03/45/63/88/360_F_345638885_EBRKmI2LVfJcQGWj0Mtmg9R4HQd1RODV.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center; 
+    font-family:"Roboto", sans-serif; 
+}
+.home h1{
+    width: 900px ;
+    font-size: 100px;
+    font-weight: 700;
+}
+.home button{
+    margin-top: 40px;
+    height: 60px;
+    width: 200px;
+    margin-right: 20px;
+}
+.store h1{
+    margin-left: 30px;
+    font-size: 50px;
+}
+.store p{
+    color: #b9b9b9f1;
+    width: 600px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.collection{
+    padding: 100px 0px;
+}
+.brands-logos{
+    background-color: #dfdfdff1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+}
+.brands-logos img{
+    margin: 0 auto;
+}
+.navs-tabs-button {
+    display: flex;
+    justify-content: end;
+}
+.trasparent-card{
+    background-color: black;
+}
+.review-text{
+    width: 350px;
+    color: #b9b9b9f1;
+}
